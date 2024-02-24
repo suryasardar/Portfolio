@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+ 
 import './App.css';
-
+ 
+import Navbar from './compoents/Navbar';
+import Home from './compoents/Home';
+import About from './compoents/About';
+import Skills from './compoents/Skills';
+import Project from './compoents/Project';
+import Contact from './compoents/Contact';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// const import { originalName as alias } from 'module'
+// const image='product-2.jpeg'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className='bg-white dark:bg-black'>
+    <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Project />
+      <Contact/>
+   </div>
+   
   );
 }
 
