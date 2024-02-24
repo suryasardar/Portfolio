@@ -9,7 +9,7 @@ const Home = () => {
         <h1 className=" text-4xl sm:text-7xl font-bold dark:text-yellow-400">
           Suryaprakash
         </h1>
-        <h2 className=" text-2xl  pt-1 sm:text-7xl font-bold dark:text-yellow-500">
+        <h2 className=" text-2xl  pt-1  md:text-4xl sm:text-7xl font-bold dark:text-yellow-500">
           I'm a Full Stack Developer
         </h2>
         <p className="pt-2 pb-4 max-w-[700px] dark:text-yellow-200">
