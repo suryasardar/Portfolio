@@ -45,7 +45,7 @@ const Project = () => {
                 Typing Website
               </span>
                           <div className="pt-8 text-center">
-                          <a href="https://6583075430feee29e4925af3--fanciful-shortbread-401dc6.netlify.app/">
+                          <a href="https://typingwebsite.netlify.app/">
                   <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
