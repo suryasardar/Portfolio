@@ -9,7 +9,7 @@ import { MdOutlineLightMode } from "react-icons/md";
 // import suryam from '../ images/suryam.mp4'
 
 const Navbar = () => {
-  const [theme, settheme] = useState("dark");
+  const [theme, settheme] = useState("light");
 
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme:dark)").matches) {
@@ -27,7 +27,7 @@ const Navbar = () => {
     }
   }, [theme]);
 
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
   const handleclick = () => {
     setNav(!nav);
   };
