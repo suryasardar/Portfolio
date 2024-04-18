@@ -13,9 +13,9 @@ const Navbar = () => {
 
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme:dark)").matches) {
-      settheme("dark");
-    } else {
       settheme("light");
+    } else {
+      settheme("dark");
     }
   }, []);
 
