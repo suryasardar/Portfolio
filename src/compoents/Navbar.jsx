@@ -64,7 +64,7 @@ const Navbar = () => {
           onClick={handlelightmode}
           className=" hidden md:flex px-3  dark:text-white cursor-pointer"
         >
-          {theme === "light" ? <MdOutlineLightMode /> : <MdOutlineDarkMode />}
+          {theme === "dark" ? <MdOutlineLightMode /> : <MdOutlineDarkMode />}
         </button>
       </span>
 
