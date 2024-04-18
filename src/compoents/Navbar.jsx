@@ -9,7 +9,7 @@ import { MdOutlineLightMode } from "react-icons/md";
 // import suryam from '../ images/suryam.mp4'
 
 const Navbar = () => {
-  const [theme, settheme] = useState("light");
+  const [theme, settheme] = useState("dark");
 
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme:dark)").matches) {
@@ -64,7 +64,7 @@ const Navbar = () => {
           onClick={handlelightmode}
           className=" hidden md:flex px-3  dark:text-white cursor-pointer"
         >
-          {theme === "dark" ? <MdOutlineLightMode /> : <MdOutlineDarkMode />}
+          {theme === "light" ? <MdOutlineLightMode /> : <MdOutlineDarkMode />}
         </button>
       </span>
 
