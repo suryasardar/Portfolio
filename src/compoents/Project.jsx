@@ -2,6 +2,7 @@ import React from "react";
 
 import Ecommerce from "../ images/Ecommerce.png";
 import Typing from "../ images/Typing.jpg";
+import Chatapp from "../ images/Chat-app.jpeg"
 
 const Project = () => {
   return (
@@ -17,7 +18,7 @@ const Project = () => {
           <p className="py-4"> Check out some of my recent projects </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-4">
         <div
             style={{ backgroundImage: `url(${Ecommerce})` }}
             className="shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -52,6 +53,24 @@ const Project = () => {
                 </a>
                 <a href="https://github.com/suryasardar/typingwebsite">
                   <button className="text-center rounded-lg px-2 py-1 m-2 bg-white text-black font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Chatapp})` }}
+            className="shadow-lg shadow-white group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover effects */}
+            <div className=" group-hover:opacity-100">
+              <span className="text-2xl font-bl=old text-white bg-black tracking-wider">
+                 Chat Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/suryasardar/Chat-App">
+                  <button className=" text-center rounded-lg px-2 py-1 m-2 bg-white text-black font-bold text-lg">
                     Code
                   </button>
                 </a>
